@@ -1,5 +1,5 @@
 # achi-vanitygen
-Achi Vanitygen program is designed to help you easily create Achi vanity addresses with a given pattern. You can use a vanity address program to create a more personalized address. For example, you can create an address that starts with ‘ach1stake’ and ask people to send Achi to ach1stakelhnltrea985k9rhv092wzlje4sp6hvc4gza8u0zlnhqac7qakfzw5 or otherwise use is as any generic Achi address. The amount of time required to find a given pattern depends on how long the pattern is, the speed of the computer(s) employed to do the calculations and luck. On average it takes 8-12 hours to generate vanity address with special 5 symbols after ach1, the more symbols after ach1 in the pattern the more time it takes to generate.
+Achi Vanitygen program is designed to help you easily create Achi vanity addresses with a given pattern. You can use a vanity address program to create a more personalized address. For example, you can create an address that starts with **‘ach1stake’** and ask people to send Achi to **ach1stakelhnltrea985k9rhv092wzlje4sp6hvc4gza8u0zlnhqac7qakfzw5** or otherwise use it as any generic Achi address. The amount of time required to find a given pattern depends on how long the pattern is, the speed of the computer(s) employed to do the calculations and luck. On average it takes 8-12 hours to generate vanity address with special 5 symbols after **ach1**, the more symbols after **ach1** in the pattern the more time it takes to generate.
 
 ## How it works
 
@@ -106,13 +106,13 @@ https://github.com/Achi-Coin/achi-vanitygen
 
 ### Step 2 - Start Server
 
-Start server as it is described here https://github.com/Achi-Coin/achi-vanitygen-server/README.md
+Start server as it is described here https://github.com/Achi-Coin/achi-vanitygen-server
 
 ### Step 3 - Edit start_clients.sh
 
-Replace '127.0.0.1' to IP address of your server or do not make any changes if you run client and server on the same PC
+Replace **127.0.0.1** with IP address of your server or do not make any changes if client and server are on the same PC
 
 ### Step 4 - Start Achi Vanitygen
 
-Run $ watch ./start_clients.sh
+Run ```watch ./start_clients.sh```
 
